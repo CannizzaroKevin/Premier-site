@@ -1,0 +1,54 @@
+
+section
+{text-align: left;}
+
+
+p
+{
+	color: blue;
+	font-size: 24px ;
+	font-family: Impact, "Arial Black", Arial, verdana;
+	font-style: italic;
+}
+h1
+{
+	color: purple;
+	font-size: 48px ;
+	font-family: Verdana;
+	font-style: italic;
+	text-align: center;
+	text-shadow: 2px 8px 6px black;
+}	
+
+a
+{
+	text-align: center;
+}
+
+h2
+{
+	text-decoration: underline;
+	font-size: 34px;
+	color: rgb(214, 122, 127);
+}
+
+.flottant
+{
+	float:center;
+}
+
+.autreparagraphe
+{
+}
+
+body
+{
+	background-color: rgba(69,153,176,0.7);
+	margin: 0;
+
+}
+
+figure
+{
+	text-align: center;
+}
