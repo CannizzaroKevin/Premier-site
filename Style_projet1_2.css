@@ -23,7 +23,7 @@ section h1, footer h1, nav a
 /* Header */
 header
 {
-	background: url(contenu/walle.jpg) repeat-x bottom;
+	background: url(contenu/fondecran.jpg) repeat-x bottom;
 	display: flex; 
 	justify-content: space-between;
 	align-items: flex-end;
@@ -62,13 +62,10 @@ header h1
 
 #bloc-page
 {
-	border: solid orange;
+	/*border: solid orange;*/
 }
 
-nav
-{
-	border: solid rgb(131, 101, 5);
-}
+
 /* Navigation*/
 
 nav ul
@@ -216,6 +213,7 @@ footer
 footer p,footer ul
 {
 	font-size: 0.8em;
+	font-size: 18px;
 }
 
 footer h1
@@ -226,32 +224,36 @@ footer h1
 #dernierdonjon
 {
 	width: 28%;
-	border-color: #760001;
+	border-color: #2200e4;
 	text-align: center;
 }
 
 #Screenshot
 {
-	width: 35%;
-	border: solid yellow;
+	width: 44%;
 	align-items: center;
 }
 
 #mes-autres-classes
 {
-	width: 31%;
+	width: 28%;
 	height: 31%;
 	list-style: none;
-	border: solid red;
+	/*border: solid red;*/
 }
 
 #Screenshot img
 {
-	border: 1px solid #181818;
+	/*border: 1px solid #0858d1;*/
 	margin-right: 2px;
-	width: 45%;
-	height: 45%;
-	align-items: center;
+	margin-bottom: 2px;
+	width: 47%;
+	height: 47%;
+}
+
+#Screenshot p
+{
+	text-align: center;
 }
 
 #listes-classes
@@ -259,14 +261,14 @@ footer h1
 	display: flex;
 	justify-content: space-between;
 	margin-top: 0;
-	border: solid blue;
+	/*border: solid blue;*/
+	text-align: left;
 }
 
 #listes-classes a
 {
 	text-decoration:none;
-	color: #760001;
+	color: #002f75;
 	text-align: center;
-	border: solid green;
-	
+	/*border: solid green;*/	
 }
